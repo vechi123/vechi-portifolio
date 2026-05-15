@@ -1,7 +1,7 @@
 # 👋 Olá, eu sou Davi Vechi Mourão de Castro!
 
 🎓 Estudante de **Ciência de Dados e Machine Learning**  
-📍 Brasil
+📍 Brasília-DF
 
 > *"O que me motiva é a vontade constante de evoluir na área de dados. Apaixonado por tecnologia e IA, quero sempre usar dados para resolver problemas reais."*
 
