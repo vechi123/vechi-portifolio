@@ -34,8 +34,8 @@ Esta pasta reúne os projetos e trabalhos desenvolvidos ao longo da minha gradua
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Python · Pandas · Scikit-learn
-- SQL · HTML5 · CSS3
+- Python · Pandas 
+- SQL · HTML5 
 - Git · GitHub
 
 ## 👤 Autor
