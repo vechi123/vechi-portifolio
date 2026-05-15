@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi Vechi - Portfólio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #0a1628; color: #e2e8f0; font-family: 'Segoe UI', sans-serif; min-height: 100vh; }
+
+        header { background: #0d1f3c; text-align: center; padding: 3rem 2rem; border-bottom: 1px solid #1e3a5f; }
+        .avatar { width: 120px; height: 120px; border-radius: 50%; background: #1a4a7a; border: 4px solid #3b82f6; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.2rem; font-size: 2.5rem; font-weight: 700; color: #93c5fd; }
+        h1 { font-size: 2rem; color: #ffffff; margin-bottom: 6px; }
+        .subtitle { color: #60a5fa; font-size: 1rem; margin-bottom: 1rem; }
+        .quote { font-style: italic; color: #94a3b8; max-width: 600px; margin: 0 auto 1.5rem; line-height: 1.7; }
+        .badges { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+        .badge { background: #1e3a5f; color: #60a5fa; padding: 5px 14px; border-radius: 20px; border: 1px solid #2563eb; font-size: 0.85rem; }
+
+        section { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; border-bottom: 1px solid #1e3a5f; }
+        h2 { color: #60a5fa; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1.2rem; }
+
+        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+        .card { background: #0d1f3c; border: 1px solid #1e3a5f; border-radius: 10px; padding: 1.2rem; }
+        .card-icon { font-size: 1.5rem; margin-bottom: 8px; }
+        .card h3 { font-size: 0.95rem; color: #e2e8f0; margin-bottom: 4px; }
+        .card p { font-size: 0.8rem; color: #64748b; }
+
+        .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+        .skill { background: #0d1f3c; border: 1px solid #1e3a5f; border-radius: 6px; padding: 6px 16px; font-size: 0.85rem; color: #93c5fd; }
+
+        .sobre p { color: #94a3b8; line-height: 1.8; margin-bottom: 0.8rem; }
+        .sobre ul { color: #94a3b8; padding-left: 1.2rem; line-height: 2; }
+
+        footer { text-align: center; padding: 2rem; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+        .btn { background: #1d4ed8; color: #fff; padding: 10px 28px; border-radius: 8px; text-decoration: none; font-size: 0.9rem; }
+        .btn.outline { background: transparent; border: 1px solid #3b82f6; color: #60a5fa; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="avatar">DV</div>
+    <h1>Davi Vechi Mourão de Castro</h1>
+    <p class="subtitle">Estudante de Ciência de Dados & Machine Learning</p>
+    <p class="quote">"O que me motiva é a vontade constante de evoluir na área de dados. Apaixonado por tecnologia e IA, quero sempre usar dados para resolver problemas reais."</p>
+    <div class="badges">
+        <span class="badge">🐍 Python</span>
+        <span class="badge">🔧 Git</span>
+        <span class="badge">🤖 Machine Learning</span>
+        <span class="badge">📊 Data Science</span>
+    </div>
+</header>
+
+<section class="sobre">
+    <h2>🚀 Sobre mim</h2>
+    <p>Sou estudante apaixonado por dados, inteligência artificial e tecnologia. Acredito que os dados são a base para tomadas de decisão inteligentes.</p>
+    <ul>
+        <li>🔭 Estudando <strong>Ciência de Dados e Machine Learning</strong></li>
+        <li>🌱 Aprendendo <strong>Python, Git e GitHub</strong></li>
+        <li>🎯 Objetivo: usar dados para resolver problemas do mundo real</li>
+        <li>💡 Interesses: <strong>IA, Data Science, Machine Learning</strong></li>
+    </ul>
+</section>
+
+<section>
+    <h2>📁 Repositórios</h2>
+    <div class="cards">
+        <div class="card">
+            <div class="card-icon">📚</div>
+            <h3>Projetos Acadêmicos</h3>
+            <p>Trabalhos desenvolvidos durante a faculdade</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">💡</div>
+            <h3>Projetos Pessoais</h3>
+            <p>Experimentos e ideias próprias</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">📄</div>
+            <h3>Documentação</h3>
+            <p>Materiais, relatórios e apoio</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">🌐</div>
+            <h3>Página Web</h3>
+            <p>Este portfólio online</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>🛠️ Tecnologias</h2>
+    <div class="skills">
+        <span class="skill">Python</span>
+        <span class="skill">Git</span>
+        <span class="skill">GitHub</span>
+        <span class="skill">Machine Learning</span>
+        <span class="skill">Data Science</span>
+    </div>
+</section>
+
+<footer>
+    <a class="btn" href="https://www.linkedin.com/in/davi-vechi-9250783b2/" target="_blank">LinkedIn</a>
+    <a class="btn outline" href="https://github.com/vechi123" target="_blank">GitHub</a>
+</footer>
+
+</body>
+</html>
