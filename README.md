@@ -42,7 +42,9 @@ e estou em constante aprendizado para me tornar um profissional completo nessa �
 
 ## 📊 Estatísticas do GitHub
 
-![Davi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vechi123&show_icons=true&theme=dark&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vechi123&layout=compact&theme=dark&hide_border=true)
+
+---
 
 ---
 
