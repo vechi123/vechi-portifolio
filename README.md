@@ -40,12 +40,6 @@ e estou em constante aprendizado para me tornar um profissional completo nessa �
 
 ---
 
-## 📊 Estatísticas do GitHub
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vechi123&layout=compact&theme=dark&hide_border=true)
-
----
-
 ---
 
 ## 📬 Contato
